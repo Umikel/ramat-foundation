@@ -1,0 +1,909 @@
+body{
+  background-color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 60px;
+  
+}
+#cap{
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: center;
+  }
+
+
+.first{
+  width: 96%;
+  height: 90px;
+  background-color:rgb(3, 19, 36);
+  padding: 6px;
+  color: white;
+  margin: auto;
+  display: block;
+  
+  
+}
+.first li{
+  float: left;
+  text-align: center;
+  padding-right: 5px;
+  display: none;
+}
+.no img {
+ margin-right: 30px;
+  float: right;
+  margin-top: 4;
+  
+  
+}
+#one{
+  margin-right: 0%;
+  margin-top: 4;
+
+}
+#one img{
+  width: 5%;
+
+}
+
+.no{
+  height: 30px;
+  background-color: rgb(94, 216, 190);
+  margin: auto;
+  font-size: 110%;
+  font-family: Candara Light;
+  color: black;
+  padding-left: 6px;
+  padding-top: 10px;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 9px 0px 4px 5px;
+  font-size: 14px;
+  font-family: Arial;
+ 
+}
+li:hover {
+  background-color: brown;
+  border-radius: 10px;
+  
+}
+.head{
+  font-family:Comic Sans MS;
+  color: white;
+  font-size: 100%; 
+  display: inline-block;
+  position: absolute;
+  
+}
+.head img{
+  border-radius: 50px;
+  width: 15%;
+  
+  }
+  
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 13400px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: white;
+    font-size: 150%;
+    padding: 8px 12px;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.7);
+    top: 30px;
+    width: 50%;
+    margin-left: 35px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes example{
+    from{left:10px; top: 30px;}
+    to{top:0px;}
+    to{right: 50px;}
+    to{left: 50px;}
+  }
+  #df{
+    margin-right: 300px;
+    animation-name: df;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    font-size: 130%;
+    
+  }
+  @keyframes df{
+    from{left:10px; top: 30px;}
+    to{top:160px;}
+    to{left: 115px;}
+    
+      
+  }
+  
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #14f00c;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #0e0d0d;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #4908e0;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  .dropbtn {
+    background-color: #f1eeee;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    left: 300px;
+    top: 40px;
+  }
+  .dropbtn img{
+    width: 90%;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #c92828;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    left: 200px;
+    top: 50px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  .mySlides img{
+      width: 100%;
+      height: 300px;
+      filter: blur(0px);
+      object-fit: fill;
+  }
+  #blu{
+    filter: blur(1px);
+  }
+  .three{
+    width: 90%;
+    height: 350px;
+    text-align: center;
+    font-family:Comic Sans MS;
+    font-size: 60%;
+    color: rgb(6, 35, 59); 
+    padding: 20px;
+  }
+  .three img{
+    width: 80%;
+    transition: 1s;
+    border-radius: 10px;
+
+
+  }
+  .three img:hover{
+    opacity: 0.9;
+    width: 350px;
+  }
+  #k{
+   font-family: Bahnschrift Light;
+   font-size: 170%;
+  }
+  #no{
+    width: 5%;
+  }
+  #but{
+    background-color: rgb(29, 101, 163);
+    border-radius: 7px;
+    width: 50px;
+    height: 30px;
+    color: white;
+    font-size: 140%;
+  }
+
+  @media only screen and (min-width:768px){
+    .butt{
+      background-color: rgb(29, 101, 163);
+      width: 200px;
+      height: 40px;
+      color: white;
+      font-size: 170%;
+      font-family: Bahnschrift Light;
+      border-radius: 15px;
+      border: none;
+      margin-top: 15px;
+    
+    }
+    .bt{
+      background-color: #1ab115;
+      width: 180px;
+      height: 40px;
+      color: white;
+      font-size: 110%;
+      border-radius: 15px;
+      border: none;
+      
+    }
+    .bt:hover{
+      background-color: #c92828;
+    }
+    .butt:hover{
+      background-color: #c92828;
+    }
+    #no{
+      width: 2%;
+    }
+    #k{
+      font-size: 200%;
+     font-family: Bahnschrift Light;
+    }
+    .no{
+      width: 98.5%;
+      height: 30px;
+      background-color: rgb(94, 216, 190);
+      display: block;
+      margin: auto;
+      font-size: 110%;
+      font-family: Candara Light;
+      color: black;
+      padding-left: 20px;
+    
+    }
+    #one{
+      margin-right: 89%;
+      margin-top: 2;
+    
+    }
+    #one img{
+      width: 15%;
+    }
+    .three{
+      width: 30.33%;
+      height: 350px;
+      float: left;
+      text-align: center;
+      margin-top: 30px;
+      font-family:Comic Sans MS;
+      font-size: 60%;
+      color: rgb(6, 35, 59);
+      padding: 15px;
+      
+      
+    }
+    .mySlides img{
+      width: 100%;
+      height: 550px;
+      filter: blur(0px);
+      object-fit: fill;
+  }
+  .text {
+    color: white;
+    font-size: 400%;
+    padding: 8px 12px;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.7);
+    top: 30px;
+    width: 50%;
+    margin-left: 70px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 1s;
+    border-radius: 20px;
+    animation-fill-mode: forwards;
+  }
+  @keyframes example{
+    from{left:10px; top: 30px;}
+    to{top:130px;}
+    to{right: 350px;}
+    to{left: 220px;}
+  }
+  ul{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 65%;
+    margin-top: 40px;
+    
+  }
+  
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  font-size: 18px;
+  font-family: Arial;
+ 
+}
+.head{
+  font-family:Comic Sans MS;
+  color: white;
+  font-size: 140%; 
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+}
+.head img{
+  border-radius: 50px;
+  width: 15%;
+  }
+  .first{
+    width: 100%;
+    height: 90px;
+    background-color:rgb(3, 19, 36);
+    padding: 0px;
+    color: white;
+    position:relative;
+    top: 0;
+    display: block;
+     
+  }
+  .first li{
+    float: left;
+    text-align: center;
+    padding-right: 5px;
+    display: block;
+  }
+  @keyframes df{
+    from{right:10px; top: 30px;}
+    to{top:70px;}
+    to{right:600px;}
+      
+  }
+  @keyframes terms{
+    from{left:10px; top: 30px;}
+    to{top:70px;}
+    to{left:400px;}
+      
+  }
+  #df{
+    margin-right: 300px;
+    animation-name: df;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    font-size: 250%;
+    border-radius: 10px;
+    width: 30%;
+  }
+  #terms{
+    margin-right: 200px;
+    animation-name: terms;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    font-size: 250%;
+    border-radius: 10px;
+    width: 30%;
+  }
+  .back{
+    height: 500px;
+    background-color: rgb(226, 235, 235);
+    padding: 30px;
+    
+  }
+  .active{
+    background-color: #1ab115;
+    border-radius: 10px;
+  }
+  
+  .bone{
+    width: 30%;
+    float: left;
+  }
+  .have{
+    height: 550px;
+    padding: 30px;
+  }
+  #mike{
+    width: 60%;
+    height: 400px;
+    padding: 5px;
+    margin-left: 50px;
+    
+
+  }
+#mikel img{
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+  
+}
+#mike h1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Comic Sans MS;
+  color:#4908e0;
+}
+#mike h2{
+  margin-top: 20px;
+  font-family: Comic Sans MS;
+  color:#4908e0;
+}
+#mike h3{
+  font-family: Comic Sans MS;
+  color:#4908e0;
+}
+#mike p{
+  font-size: 140%;
+  font-family: Bahnschrift Light;
+}
+.kilo{
+ height: 150px; 
+ background-color:rgb(3, 19, 36);
+ color: white;
+ padding: 30px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.meta{
+  width: 33%;
+  float: left;
+
+}
+.gwa{
+  height: 30px;
+  background-color: rgb(94, 216, 190);
+  color: black;
+  font-size: 110%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+}
+.what{
+  height: 450px;
+  background-color: rgb(226, 235, 235);
+}
+.we{
+  width: 50%;
+  float: left;
+}
+.we img{
+  border-radius: 20px;
+  margin-top: 30px;
+  width: 70%;
+}
+.we h1{
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.have h1{
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.we p{
+  padding: 30px;
+  font-family: Bahnschrift Light;
+  font-size: 130%;
+}
+.mon{
+height: 480px;
+padding: 30px 50px 50px 50px;
+}
+.mond{
+  width: 23.3%;
+  float: left;
+  border-radius: 10px;
+  height: 380px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+.mond img{
+  width: 80%;
+  border-radius: 10px;
+  
+}
+.mond img:hover{
+  width: 220px;
+  
+}
+.mon h1{
+  padding-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mond h3{
+  padding-top: 15px;
+  font-family: Bahnschrift Light;
+}
+.mond p{
+  font-family: Bahnschrift Light;
+  font-size: 110%;
+}
+#kkk{
+  text-decoration: none;
+  color: white;
+}
+
+.meta h2{
+  margin-bottom: 15px;
+}
+.done{
+  height: 1300px;
+  background-color: rgb(226, 235, 235);
+  padding: 30px;
+  
+  }
+  .done1{
+      width: 45%;
+      float: left;
+      height: 400px;
+      font-family:Bahnschrift Light;
+      padding: 30px;
+      
+  }
+  .done h1{
+      padding-bottom: 20px; 
+      font-family: Bahnschrift Light;
+  }
+  .done p{
+      font-size: 140%;
+      font-family: Bahnschrift Light;
+  }
+  .done1 h2{
+      padding-top: 25px; 
+  }
+
+
+  .done1 img{
+      width: 90%;
+      border-radius: 50px;
+    
+
+  }
+  #air{
+      padding-left: 40px;
+  }
+  .kilo{
+    height: 150px; 
+    background-color:rgb(3, 19, 36);
+    color: white;
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .meta{
+    width: 33%;
+    float: left;
+  
+  }
+  .gwa{
+    height: 30px;
+    background-color: rgb(94, 216, 190);
+    color: black;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+  }
+  #kkk{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .meta h2 {
+    margin-bottom: 15px;
+  }
+  .bank{
+    height: 120px;
+    padding: 20px 50px 50px;
+    background-color:rgb(226, 235, 235);
+    text-align: center;
+    color:rgb(3, 11, 37);
+    
+  }
+
+  #nwu2{
+    font-family: Bahnschrift Light;
+    padding-top: 10px;
+    font-size: 300%;
+  }
+  .nwu3{
+    height: 500px;
+  }
+  .bank p{
+    font-size: 150%;
+    font-family: Bahnschrift Light;
+    padding-bottom: 10px;
+  }
+  #kop{
+    height: 250px;
+  }
+  #guy{
+    height: 650px;
+  }
+  .wizkid{
+    height: 1770px;
+    padding: 0px 100px 20px 170px;
+  }
+  .burna{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-family: Bahnschrift Light;
+   
+  }
+  .burna img{
+    width: 70%;
+    border-radius: 30px;
+    padding-top: 10px;
+    
+  }
+  .burna h1{
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .burna p{
+    padding-left: 30px;
+    font-size: 130%;
+
+  }
+  #saa{
+    background-color: azure;
+    height: 350px;
+    
+  }
+  #naaa{
+    background-color: azure;
+    height: 350px;
+    
+  }
+  hr{
+  height: 5px;
+  border-radius: 20px;
+ background-color: rgb(210, 240, 212);
+
+  }
+  
+  #live{
+    height: 600px;
+    text-align: center;
+  }
+  #chande h2{
+    padding-top: 0px;
+    margin-bottom: 10px;
+  }
+#chande h1{
+  padding-bottom: 2px;
+}
+#chande img{
+  padding-top: 20px;
+}
+fieldset{
+  height: 280px;
+  padding: 50px;
+  border-radius: 15px;
+}
+#k01 {
+  border-radius: 10px;
+  height: 40px;
+  border:none;
+  width: 155px;
+  margin-bottom: 20px;
+  font-size: 100%;
+  text-align: center;
+}
+#k02 {
+  border-radius: 10px;
+  height: 40px;
+  border:none;
+  width: 310px;
+  margin-bottom: 10px;
+  font-size: 100%;
+  text-align: center;
+
+
+}
+#k03 {
+  border-radius: 10px;
+  height: 40px;
+  border:none;
+  width: 470px;
+  margin-bottom: 20px;
+  font-size: 100%;
+  text-align: center;
+}
+#k03 {
+  border-radius: 10px;
+  height: 40px;
+  border:none;
+  width: 470px;
+  margin-bottom: 20px;
+  font-size: 100%;
+  text-align: center;
+}
+#k04 {
+  border-radius: 10px;
+  height: 40px;
+  border:none;
+  width: 470px;
+  margin-bottom: 20px;
+  font-size: 100%;
+  text-align: center;
+  
+}
+button{
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1ab115;
+  color: white;
+  font-size: 130%;
+}
+button:hover{
+background-color: #c92828;
+}
+#whyt img{
+  width: 15%;
+}
+#alone{
+  background-color: white;
+  height: 600px;
+  text-align: center;
+  
+  }
+  #pay{
+    width: 30%;
+    padding: 120px;
+  }
+  #kano{
+      height: 400px;
+      padding: 50px;
+      border-radius: 15px;
+      background-color: rgb(226, 235, 235);
+      width: 200px;
+      border: none;
+    }
+    #pay img{
+      width: 20%;
+    }
+    #k05 {
+      border-radius: 10px;
+      height: 55px;
+      border:none;
+      width: 210px;
+      margin-bottom: 20px;
+      font-size: 100%;
+      text-align: center;
+    }
+    #k06 {
+      border-radius: 10px;
+      height: 55px;
+      border:none;
+      width: 430px;
+      margin-bottom: 20px;
+      font-size: 100%;
+      text-align: center;
+    }
+    #reason{
+      width: 300px;
+      height: 40px;
+      border-radius: 10px;
+      font-size: 120%;
+      font-family: Bahnschrift Light;
+     
+     
+    }
+    #restt{
+      font-size: 120%;
+    }
+    #k07 {
+      border-radius: 10px;
+      height: 100px;
+      border:none;
+      width: 430px;
+      margin-top: 20px;
+      font-size: 100%;
+      
+    }
+    #mss{
+      width: 150px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    .dropdown {
+      position: relative;
+      display: none;
+    }
+    .dropbtn:hover, .dropbtn:focus {
+      display: none;
+    }
+    
+    .dropdown {
+      position: relative;
+      display:none;
+    }
+    
+    .dropdown-content {
+      display: none;
+     
+    }
+    
+    .dropdown-content a {
+    
+      display: none;
+    }
+    
+    .dropdown a:hover {display: none;}
+    
+    .show {display: none;}
+    
+  
+}
+#bless{
+  background-color: white;
+}
+    
